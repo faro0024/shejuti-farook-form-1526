@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+font-family: 'Open Sans', sans-serif;
+background:url("../image/butteerfly.png");
+background-attachment: fixed;
+background-repeat:no-repeat;
+background-position:bottom-left;
+background-size: 80%;
+}
+
+
+.wrapper{
+   max-width: 50rem; 
+    margin: 0 auto;
+    padding: 15%;
+    font-size:1rem;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+fieldset{
+    background-color: #F5F5F5;
+    padding: 10px;
+  border: 2px solid #DDD;
+
+}
+
+legend{
+    background-color: #FFF;
+    padding: 10px;
+    border:1px solid black;
+    font-size:1.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+text{
+background-color: #F5F5F5;
+}
+
+#submit{
+    background-color: #6495ED;
+    color:#FFFF;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius:5px;
+}
+
+#submit:hover{  background-color: #DDD;
+    color:black;
+}
+
+#message #fullname #email{
+background-color: #F5F5F5;
+}
+
+#message{
+    width:95%;
+    float:left;
+    margin:10px;
+    border: 2px solid #DDD;
+}
+lebel{
+    width:50%;
+        margin: 5px;
+
+}
+#fullname{
+    border: 2px solid #DDD;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 90%;
+}
+
+#email{
+    border: 2px solid #DDD;
+    margin: 5px;
+    width: 90%;
+
+}
+
+@media screen and (min-width:25rem){
+    .form-box-error{
+        display: inline-block;
+        float:left;
+        width: 50%;
+    }
+    lebel{
+        width:10%;
+    }
+}
+
